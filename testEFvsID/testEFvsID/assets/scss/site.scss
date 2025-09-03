@@ -1,0 +1,211 @@
+﻿body {
+    .header-top {
+        background: #f8f8f8;
+        padding: 0px;
+    }
+    .content{
+        margin-top:30px;
+    }
+}
+.time {
+    line-height: 50px;
+    color: #777777;
+}
+
+.fixed-top {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.breadcrumb {
+    padding: 0px;
+    background-color: white;
+    margin: 0px;
+}
+.font-title {
+    font-family: "Merriweather", serif;
+}
+.title-category-slider{
+    font-size:16px;
+    a{
+        color:#777777;
+    }
+    :hover{
+        text-decoration:none;
+    }
+}
+.new-slider-title {
+    margin: 0px 0 10px 0;
+}
+.new-title {
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    font-style: normal;
+
+    a {
+        color: black;
+        transition-duration: 200ms;
+        transition-property: all;
+        transition-timing-function: cubic-bezier(.7,1,.7,1);
+    }
+
+    a:hover {
+        text-decoration: none !important;
+        color: #087cce !important;
+        /*transition-duration: 200ms;
+        transition-property: all;
+        transition-timing-function: cubic-bezier(.7,1,.7,1);*/
+    }
+
+    &-view {
+        font-size: 14px;
+        font-weight:500;
+        margin:0;
+    }
+    &-hot{
+        font-size:14px;
+    }
+}
+
+.new {
+    &-view {
+        &-image {
+            width: 100px;
+            height: 60px;
+            object-fit: cover;
+        }
+    }
+
+    &-hot {
+        &-image {
+            height: 100px;
+            object-fit: cover;
+        }
+    }
+
+    &-footer {
+        font-size: 12px;
+        color: #777777;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    &-description {
+        font-family: "Merriweather", serif;
+    }
+    &-category {
+        &-time {
+            color:#777777;
+            font-size:14px;
+        }
+
+        &-image {
+            width: 300px;
+            height: 200px;
+        }
+    }
+}
+.breadcrumb-item {
+    font-family: "Merriweather", serif;
+
+    a {
+        color: #777777;
+    }
+
+    :hover {
+        text-decoration: none;
+    }
+}
+.list-custom {
+    &-item {
+        margin-top: 20px;
+
+        div {
+            margin-top: 5px;
+        }
+
+        :hover {
+            text-decoration: none;
+            
+        }
+    }
+
+    &-title {
+        color: #000;
+        display: flex;
+        align-items: center;
+        span{
+            font-size:14px;
+        }
+    }
+}
+.footer {
+    font-size: 14px;
+    padding: 30px 0px;
+
+    p {
+        margin: 0;
+        /*font-size:12px;*/
+    }
+
+    &-follow {
+        font-size: 16px;
+
+        i {
+            font-size: 24px;
+        }
+    }
+
+    &-map {
+        margin-top: 10px;
+    }
+
+    button {
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    }
+}
+.search {
+    &-text {
+        position: relative;
+    }
+
+    &-result {
+        display:none;
+        position: absolute;
+        background-color: #f8f8f8;
+        min-height: 5px;
+        width: 90%;
+        top: 40px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+}
+.list-custom-item {
+
+    .sub-info {
+        display: none;
+        position: absolute;
+        height: auto;
+        width: 200px;
+        padding: 5px;
+        background-color: white;
+        z-index: 99;
+
+        img {
+            width: 100%;
+        }
+
+        p {
+            
+            font-size: 12px;
+            font-weight: 600;
+            overflow: hidden; /* Ẩn phần dư thừa */
+            text-overflow: ellipsis; /* Hiển thị dấu chấm (...) khi dư thừa */
+           // white-space: normal; /* Ngăn chặn văn bản ngắt dòng */
+            display: -webkit-box; /* Hiển thị dưới dạng block */
+            -webkit-line-clamp: 4; /* Số dòng hiển thị tối đa */
+            -webkit-box-orient: vertical; /* Hiển thị dưới dạng cột */
+        }
+    }
+}
+
+    

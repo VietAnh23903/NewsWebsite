@@ -1,0 +1,30 @@
+[
+  {
+    "outputFile": "wwwroot/css/site.css",
+    "inputFile": "assets/scss/site.scss",
+    "minify": {
+      "enabled": false
+    }
+  },
+  {
+    "outputFile": "wwwroot/css/menucate.css",
+    "inputFile": "assets/scss/menucate.scss",
+    "minify": {
+      "enabled": false
+    }
+  },
+  {
+    "outputFile": "wwwroot/css/flashnews.css",
+    "inputFile": "assets/scss/flashnews.scss",
+    "minify": {
+      "enabled": false
+    }
+  },
+  {
+    "outputFile": "wwwroot/css/adminstyle.css",
+    "inputFile": "assets/scss/adminstyle.scss",
+    "minify": {
+      "enabled": false
+    }
+  }
+]

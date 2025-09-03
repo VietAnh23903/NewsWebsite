@@ -1,0 +1,61 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using testEFvsID.Models
+
+@inject SignInManager<AppUser> SignInManager
+@inject UserManager<AppUser> UserManager
+
+<style>
+    
+</style>
+@if (SignInManager.IsSignedIn(User))
+{
+    <form asp-area="Identity" asp-controller="Account" asp-action="LogOff" method="post" id="logoutForm" class="navbar-right">
+        <ul class="nav navbar-nav navbar-right">
+            @* <li class="nav-item">
+                <a class="nav-link" asp-area="Identity" asp-controller="Manage" asp-action="Index" title="Manage"> <i class="fa fa-user"></i> &nbsp; @UserManager.GetUserName(User)</a>
+            </li> *@
+            @* <li class="nav-item">
+                <button type="submit" class="btn btn-link navbar-btn navbar-link">Đăng xuất</button>
+            </li> *@
+            <li class="nav-item dropdown no-arrow">
+                <a class="nav-link" href="#" id="userDropdown" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="mr-2 d-none d-lg-inline text-gray-600 small">
+                        <i class="far fa-user"></i>
+                        @UserManager.GetUserName(User)
+                    </span>
+
+                </a>
+                <!-- Dropdown - User Information -->
+                <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                     aria-labelledby="userDropdown">
+                    <a class="dropdown-item"  asp-area="Identity" asp-controller="Manage" asp-action="Index" title="Manage">
+                        <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                        Profile
+                    </a>
+                     <partial name="_MenuManagePartail" />
+                    
+                    <div class="dropdown-divider"></div>
+                    <div class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                        
+                        <button type="submit" class="btn btn-link navbar-btn navbar-link" style="padding:0px;">
+                            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Đăng xuất
+                        </button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </form>
+  
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        @* <li class="nav-item">
+            <a class="nav-link" asp-area="Identity" asp-controller="Account" asp-action="Register">Đăng ký <i class="fa-solid fa-user"></i></a>
+        </li> *@
+        <li class="nav-item">
+            <a class="nav-link" asp-area="Identity" asp-controller="Account" asp-action="Login">Đăng nhập <i class="fa fa-user"></i></a>
+        </li>
+    </ul>
+}

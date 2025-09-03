@@ -1,0 +1,10 @@
+﻿@using testEFvsID.Views.Shared.Components;
+@{
+    List<Category> categories = ViewData["categories"] as List<Category>;
+}
+@await Component.InvokeAsync("testEFvsID.Views.Shared.Components.CategorySidebar",
+    new CategorySidebar.CategorySidebarData(){
+       Categories=categories,
+       level=0,
+       categoryslug=ViewBag.categoryslug
+    })

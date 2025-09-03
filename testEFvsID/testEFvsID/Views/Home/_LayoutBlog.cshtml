@@ -1,0 +1,17 @@
+﻿
+@{
+   Layout = "_Layout";
+}
+<div class="row">
+       <div class="col-lg-9" style="position:static">
+        @RenderBody()
+        <partial name="_FlashNews"/>
+        @RenderSection("CustomNew",false)
+       </div>
+       <div class="col-lg-3 ">
+           @RenderSection("SideBar",false)
+           
+           @RenderSection("ListView",false)
+       </div>
+
+</div>

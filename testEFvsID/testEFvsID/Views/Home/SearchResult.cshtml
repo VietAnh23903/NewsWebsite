@@ -1,0 +1,116 @@
+﻿@model IEnumerable<testEFvsID.Models.Post>
+@using testEFvsID.Views.Shared.Components
+@{
+    List<Post> newview = ViewBag.newview;
+    List<Post> newcustom = ViewBag.newcustom;
+    List<Category> categories = ViewBag.categories as List<Category>;
+    Category category = ViewBag.category as Category;
+}
+
+<div class="row">
+
+    <div class="col-4">
+        <div>
+            <h4>Tin tức khác</h4>
+            @foreach (var post in newcustom)
+            {
+                <div class="media border-bottom mb-2 pb-2">
+                    <img src="@post.Thumbnail" class="mr-3 new-view-image">
+                    <div class="media-body">
+                        <p class="mt-0 new-title new-title-view">
+                            <a class="" asp-controller="Home" asp-action="Detail" asp-route-postslug="@post.Slug">
+                                @post.Title
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            }
+
+        </div>
+        <div >
+            <h4>Có thể bạn muốn xem</h4>
+            <iframe width=" 100%"
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=6ZyEyymq-mDLjcfK" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen></iframe>
+                   
+
+        </div>
+
+        <div>#Các từ khóa phổ biến</div>
+        <div class="" id="search-keyword"></div>
+    </div>
+    <div class="col-8 border-right border-left" style="min-height: 1200px">
+        <span style="font-size:20px">Tìm thây<strong>&nbsp;@ViewBag.Total&nbsp;</strong>kết quả</span>
+        <hr />
+        @foreach (var post in Model)
+        {
+            <div class="media border-bottom mb-3 pb-3">
+                <img src="@post.Thumbnail" class="mr-3 new-category-image" style="object-fit:cover">
+                <div class="media-body">
+                    <h5 class="mt-0 new-title">
+                        <a class="" asp-controller="Home" asp-action="Detail" asp-route-postslug="@post.Slug">
+                            @post.Title
+                        </a>
+                    </h5>
+                    <span class="new-category-time">
+                        @post.PostCategories.FirstOrDefault()?.Category.Title
+                        &nbsp<i class="fa fa-calendar"></i>
+                        <i>  @post.DateUpdated.ToShortDateString()</i>
+                    </span>
+                    <div class="text-justify">
+                        @post.Description
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
+@section ListView{
+
+    @using (Html.BeginForm("SearchResult", "Home"))
+    {
+
+        <div class="input-group mb-3">
+            <input type="text" class="form-control search-text" name="search" placeholder="Tìm kiếm" value="@ViewBag.key">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="submit" id="btnSearch"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+        <div class="search-result" id="search-result">
+            <span class="badge badge-pill badge-light">
+               sss
+            </span>
+        </div>
+
+    }
+
+    <h4 class="font-title">Hot new</h4>
+    <hr style="border:solid 1px red" />
+    @foreach (var post in newview)
+    {
+        <div class="media border-bottom mb-2 pb-2">
+            <img src="@post.Thumbnail" class="mr-3 new-view-image">
+            <div class="media-body">
+                <p class="mt-0 new-title new-title-view">
+                    <a class="" asp-controller="Home" asp-action="Detail" asp-route-postslug="@post.Slug">
+                        @post.Title
+                    </a>
+                </p>
+                <div class="new-footer">
+                    @* <strong>@post.Author.UserName</strong>
+            <i>@post.DateUpdated</i> *@
+                    <p>
+                        <i class="fa fa-eye"></i>
+                        @post.View
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    }
+
+}

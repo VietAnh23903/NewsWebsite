@@ -1,0 +1,249 @@
+﻿@using testEFvsID.Areas.Blog.Models;
+@model IEnumerable<testEFvsID.Models.Post>
+
+@{
+    // ViewData["Title"] = "Index";
+    var post = new CreatePostModel();
+}
+
+@* <p>
+    <a asp-action="Create" class="btn btn-primary">Thêm bài viết mới</a>
+</p> *@
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary button-show-modalck" data-toggle="modal" data-target="#exampleModalLong">
+    Thêm tin tức mới
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true" >
+    <div class="modal-dialog" role="document" style="max-width: 80%;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Thêm tin tức mới</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                @* <partial name="_CreateAjax"/> *@
+                @await Html.PartialAsync("_CreateAjax",post);
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+<p>Tổng số bài viết: @ViewBag.totalPosts</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                STT
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Thumbnail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Published)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FlashNew)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HotNew)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Slider)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Author)
+            </th>
+            
+            <th>
+                @Html.DisplayNameFor(model => model.DateUpdated)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @(++ViewBag.postIndex)
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.PostId">@Html.DisplayFor(modelItem => item.Title)</a>
+                
+                <br>
+                <small>
+                    @String.Join(",",item.PostCategories.Select(pc=>pc.Category.Title))
+                </small>
+               
+            </td>
+            <td>
+                <img src="@item.Thumbnail" height="100" class="admin-image-item" />
+            </td>
+           
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.Published)
+            </td>
+             <td>
+                @Html.DisplayFor(modelItem => item.FlashNew)
+            </td>
+             <td>
+                @Html.DisplayFor(modelItem => item.HotNew)
+            </td>
+             <td>
+                @Html.DisplayFor(modelItem => item.Slider)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Author.UserName)
+            </td>
+           
+            <td>
+                @Html.DisplayFor(modelItem => item.DateUpdated)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.PostId" data-toggle="modal" data-target="#edit"><i class="fa fa-edit button-show-modalck"></i></a>
+                    @{
+                        var post3 = Model.FirstOrDefault(p => p.PostId == item.PostId);
+
+
+                        var postEdit = new CreatePostModel()
+                            {
+                                PostId = post3.PostId,
+                                Title = post3.Title,
+                                Content = post3.Content,
+                                Description = post3.Description,
+                                Slug = post3.Slug,
+                                Published = post3.Published,
+                                HotNew = post3.HotNew,
+                                Slider = post3.Slider,
+                                FlashNew = post3.FlashNew,
+                                CategoryIDs = post3.PostCategories.Select(pc => pc.CategoryID).ToArray()
+                            };
+                    }
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="edit" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document" style="max-width: 80%;">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Thêm tin tức mới</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    @* <partial name="_CreateAjax"/> *@
+                                    @await Html.PartialAsync("Edit",postEdit)
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <a asp-action="Delete" asp-route-id="@item.PostId"><i class="fa fa-trash"></i></a>
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<partial name="_PagingXTL" model="@ViewBag.pagingModel" />
+@section Styles{
+    <link rel="stylesheet" href="~/lib/jqueryui/themes/base/theme.css" />
+    <link rel="stylesheet" href="~/lib/jqueryui/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="~/elfinder/css/elfinder.full.css" />
+    <link rel="stylesheet" href="~/elfinder/css/theme.min.css" />
+    <link rel="stylesheet" href="~/elfinder-material-theme/Material/css/theme-gray.css" />
+
+}
+
+@section Scripts{
+    <script src="~/lib/multiple-select/multiple-select.min.js"></script>
+    <link rel="stylesheet" href="~/lib/multiple-select/multiple-select.min.css" />
+    <script type="text/javascript" src="~/lib/jqueryui/jquery-ui.min.js"></script>
+    <script src="~/elfinder/js/elfinder.min.js"></script>
+    <script src="~/ckeditor/ckeditor.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $("#btnCreate").click(function () {
+                console.log("click");
+                var post = {}
+                var file = null;
+                post.categoryIDs = $("#CategoryIDs").val();
+                post.title = $("#Title").val();
+                post.description = $("#Description").val();
+                post.slug = $("#Slug").val();
+                post.content = $("#Content").val();
+                post.published = $("#Published").val();
+                post.hotNew = $("#HotNew").val();
+                post.flashNew = $("#FlashNew").val();
+                post.slider = $("#Slider").val();
+                post.authorId = $("#AuthorId").val();
+                //file = $("#file").prop('files')[0]; // Lấy file từ input type file
+
+                //var formData = new FormData(); // Tạo đối tượng FormData để chứa cả post và file
+                //formData.append("post", JSON.stringify(post)); // Thêm post vào FormData
+                //formData.append("file", file); // Thêm file vào FormData
+                console.log(JSON.stringify(post));
+                $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("TestAjax")",
+                    data: "{post:"+JSON.stringify(post)+"}",
+                    contentType: "application/json;charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+                        console.log(response.data);
+                    }
+                })
+            })
+            $("#CategoryIDs").multipleSelect({
+                selectAll: false,
+                keepOpen: false,
+                isOpen: false,
+            });
+            if ($('#btnBrowse') != undefined) {
+                $('#btnBrowse').click(function () {
+                    var fm = $('<div id="elfinder" />').dialogelfinder({
+                        url: '/quan-ly-tep-tin/connector',
+                        baseUrl: "/elfinder/",
+                        width: 840,
+                        height: 450,
+                        destroyOnClose: true,
+                        title: 'Quản lý tệp tin',
+                        getFileCallback: function (files, fm) {
+                            $('#Picture').val('/' + files[0].path);
+                            $('#PictureView').attr('src', '/' + files[0].path);
+                        },
+                        commandsOptions: {
+                            getfile: {
+                                multiple: true,
+                                oncomplete: 'close',
+                                folders: false
+                            }
+                        }
+                    }).dialogelfinder('instance');
+                })
+            }
+
+
+            
+        });
+        CKEDITOR.replace('Content');
+    </script>
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

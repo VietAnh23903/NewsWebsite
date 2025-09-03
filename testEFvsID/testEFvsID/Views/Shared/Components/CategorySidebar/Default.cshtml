@@ -1,0 +1,59 @@
+﻿@using testEFvsID.Views.Shared.Components;
+@model testEFvsID.Views.Shared.Components.CategorySidebar.CategorySidebarData
+@{
+    int level = Model.level;
+    var flag = "";
+    for (int i = 0; i < level; i++) flag += "&nbsp;&nbsp;";
+}
+@if (Model.Categories.Count > 0)
+{
+    <div class="row">
+        @foreach(var category in Model.Categories)
+        {
+            @if (level == 0)
+            {
+                <div class="col-2">
+                <strong>
+                    <a asp-controller="Home" asp-action="Index" asp-route-categoryslug="@category.slug">
+                        @category.Title
+                    </a>
+                </strong>
+                @if (category.CategoryChildren?.Count > 0)
+                {
+                    @await Component.InvokeAsync("testEFvsID.Views.Shared.Components.CategorySidebar",
+                    new CategorySidebar.CategorySidebarData(){
+                        Categories=category.CategoryChildren.ToList(),
+                         level=level+1,
+                        categoryslug=ViewBag.categoryslug
+                    })
+                    
+                }
+                </div>
+                
+            }
+            else
+            {
+             <div class="col-12">
+                    <a asp-controller="Home" asp-action="Index" asp-route-categoryslug="@category.slug">
+                      @Html.Raw(flag) @category.Title
+                    </a>
+                @if (category.CategoryChildren?.Count > 0)
+                {
+                    @await Component.InvokeAsync("testEFvsID.Views.Shared.Components.CategorySidebar",
+                    new CategorySidebar.CategorySidebarData(){
+                        Categories=category.CategoryChildren.ToList(),
+                         level=level+1,
+                        categoryslug=ViewBag.categoryslug
+                    })
+                    
+                }
+            </div>
+            }
+            
+        }
+    </div>
+}
+else
+{
+    <div></div>
+}

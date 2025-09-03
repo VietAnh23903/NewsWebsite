@@ -1,0 +1,805 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\views\\home\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\views\\home\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\areas\\identity\\views\\account\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\areas\\identity\\views\\account\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\areas\\identity\\views\\account\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\areas\\identity\\views\\account\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\areas\\identity\\views\\account\\externalloginconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\areas\\identity\\views\\account\\externalloginconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\areas\\identity\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\areas\\identity\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\areas\\identity\\views\\account\\lockout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\areas\\identity\\views\\account\\lockout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\areas\\identity\\views\\manage\\setpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\areas\\identity\\views\\manage\\setpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\areas\\identity\\views\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\areas\\identity\\views\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\areas\\identity\\views\\manage\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\areas\\identity\\views\\manage\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\areas\\identity\\views\\manage\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\areas\\identity\\views\\manage\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\areas\\identity\\views\\manage\\addphonenumber.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\areas\\identity\\views\\manage\\addphonenumber.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\areas\\identity\\views\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\areas\\identity\\views\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\areas\\identity\\views\\manage\\displayrecoverycodes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\areas\\identity\\views\\manage\\displayrecoverycodes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\areas\\identity\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\areas\\identity\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\views\\shared\\_pagingxtl.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\views\\shared\\_pagingxtl.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\views\\shared\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\views\\shared\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\data\\rolename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\data\\rolename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\extendmethods\\modelstateextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\extendmethods\\modelstateextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\services\\sendmailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\services\\sendmailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\services\\appidentityerrordescriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\services\\appidentityerrordescriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\areas\\database\\controllers\\dbmanagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\areas\\database\\controllers\\dbmanagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\areas\\blog\\controllers\\filemanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\areas\\blog\\controllers\\filemanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\areas\\blog\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\areas\\blog\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\areas\\admin\\controllers\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\areas\\admin\\controllers\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\migrations\\20240221031157_updatepost2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\migrations\\20240221031157_updatepost2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\migrations\\20240124143725_addidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\migrations\\20240124143725_addidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\views\\shared\\_menucategoriespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\views\\shared\\_menucategoriespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\views\\shared\\_layoutprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\views\\shared\\_layoutprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\models\\postcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\models\\postcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\models\\pagingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\models\\pagingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\mailssave\\2a7c7e3a-e220-4021-954c-39c744cdd79b.eml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\mailssave\\2a7c7e3a-e220-4021-954c-39c744cdd79b.eml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\mailssave\\21739bd9-e1a3-4d6d-abd3-d0345795db73.eml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\mailssave\\21739bd9-e1a3-4d6d-abd3-d0345795db73.eml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\testefvsid.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\testefvsid.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\mailssave\\3265325a-b7a8-4a8e-b671-d78f7da465bb.eml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\mailssave\\3265325a-b7a8-4a8e-b671-d78f7da465bb.eml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|d:\\vanh\\tttn_project_newswebsite\\testefvsid\\testefvsid\\migrations\\20240223015726_updateview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86AFE932-FEC5-4D94-B8AE-72D8F45BBF8B}|testEFvsID\\testEFvsID.csproj|solutionrelative:testefvsid\\migrations\\20240223015726_updateview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 691,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\appsettings.json",
+              "RelativeDocumentMoniker": "testEFvsID\\appsettings.json",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\appsettings.json",
+              "RelativeToolTip": "testEFvsID\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-24T13:03:06.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Views\\Home\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Views\\Home\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Views\\Home\\_ViewStart.cshtml",
+              "RelativeToolTip": "testEFvsID\\Views\\Home\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T10:41:45.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "testEFvsID\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "testEFvsID\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAnwJYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:42:47.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_LoginLayout.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Account\\_LoginLayout.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Areas\\Identity\\Views\\Account\\_LoginLayout.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Account\\_LoginLayout.cshtml",
+              "RelativeToolTip": "testEFvsID\\Areas\\Identity\\Views\\Account\\_LoginLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-06T15:39:39.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Account\\Error.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Areas\\Identity\\Views\\Account\\Error.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Account\\Error.cshtml",
+              "RelativeToolTip": "testEFvsID\\Areas\\Identity\\Views\\Account\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-06T15:39:42.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExternalLoginConfirmation.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Account\\ExternalLoginConfirmation.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Areas\\Identity\\Views\\Account\\ExternalLoginConfirmation.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Account\\ExternalLoginConfirmation.cshtml",
+              "RelativeToolTip": "testEFvsID\\Areas\\Identity\\Views\\Account\\ExternalLoginConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-06T15:39:43.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Areas\\Identity\\Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "testEFvsID\\Areas\\Identity\\Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-06T15:39:44.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Lockout.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Account\\Lockout.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Areas\\Identity\\Views\\Account\\Lockout.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Account\\Lockout.cshtml",
+              "RelativeToolTip": "testEFvsID\\Areas\\Identity\\Views\\Account\\Lockout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-06T15:39:47.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SetPassword.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Manage\\SetPassword.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Areas\\Identity\\Views\\Manage\\SetPassword.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Manage\\SetPassword.cshtml",
+              "RelativeToolTip": "testEFvsID\\Areas\\Identity\\Views\\Manage\\SetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-06T15:39:31.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Manage\\Index.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Areas\\Identity\\Views\\Manage\\Index.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Manage\\Index.cshtml",
+              "RelativeToolTip": "testEFvsID\\Areas\\Identity\\Views\\Manage\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-06T15:39:28.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Manage\\Error.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Areas\\Identity\\Views\\Manage\\Error.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Manage\\Error.cshtml",
+              "RelativeToolTip": "testEFvsID\\Areas\\Identity\\Views\\Manage\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-06T15:39:27.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Manage\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Areas\\Identity\\Views\\Manage\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Manage\\_ViewStart.cshtml",
+              "RelativeToolTip": "testEFvsID\\Areas\\Identity\\Views\\Manage\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-06T15:39:26.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddPhoneNumber.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Manage\\AddPhoneNumber.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Areas\\Identity\\Views\\Manage\\AddPhoneNumber.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Manage\\AddPhoneNumber.cshtml",
+              "RelativeToolTip": "testEFvsID\\Areas\\Identity\\Views\\Manage\\AddPhoneNumber.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-06T15:39:25.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Manage\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Areas\\Identity\\Views\\Manage\\ChangePassword.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Manage\\ChangePassword.cshtml",
+              "RelativeToolTip": "testEFvsID\\Areas\\Identity\\Views\\Manage\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-06T15:39:23.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DisplayRecoveryCodes.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Manage\\DisplayRecoveryCodes.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Areas\\Identity\\Views\\Manage\\DisplayRecoveryCodes.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Manage\\DisplayRecoveryCodes.cshtml",
+              "RelativeToolTip": "testEFvsID\\Areas\\Identity\\Views\\Manage\\DisplayRecoveryCodes.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-06T15:39:21.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Areas\\Identity\\Views\\Account\\AccessDenied.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Identity\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "testEFvsID\\Areas\\Identity\\Views\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-06T15:39:04.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_PagingXTL.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Views\\Shared\\_PagingXTL.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Views\\Shared\\_PagingXTL.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Views\\Shared\\_PagingXTL.cshtml",
+              "RelativeToolTip": "testEFvsID\\Views\\Shared\\_PagingXTL.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T08:23:25.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "testEFvsID\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T10:42:20.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "testEFvsID\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T10:42:21.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "testEFvsID\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T08:23:30.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_StatusMessage.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Views\\Shared\\_StatusMessage.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Views\\Shared\\_StatusMessage.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Views\\Shared\\_StatusMessage.cshtml",
+              "RelativeToolTip": "testEFvsID\\Views\\Shared\\_StatusMessage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T08:23:27.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "testEFvsID\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AgIAAK0BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T08:23:11.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "testEFvsID\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T08:23:31.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RoleName.cs",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Data\\RoleName.cs",
+              "RelativeDocumentMoniker": "testEFvsID\\Data\\RoleName.cs",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Data\\RoleName.cs",
+              "RelativeToolTip": "testEFvsID\\Data\\RoleName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:42:29.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ModelStateExtend.cs",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\ExtendMethods\\ModelStateExtend.cs",
+              "RelativeDocumentMoniker": "testEFvsID\\ExtendMethods\\ModelStateExtend.cs",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\ExtendMethods\\ModelStateExtend.cs",
+              "RelativeToolTip": "testEFvsID\\ExtendMethods\\ModelStateExtend.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:42:33.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SendMailService.cs",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Services\\SendMailService.cs",
+              "RelativeDocumentMoniker": "testEFvsID\\Services\\SendMailService.cs",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Services\\SendMailService.cs",
+              "RelativeToolTip": "testEFvsID\\Services\\SendMailService.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:41:24.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AppIdentityErrorDescriber.cs",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Services\\AppIdentityErrorDescriber.cs",
+              "RelativeDocumentMoniker": "testEFvsID\\Services\\AppIdentityErrorDescriber.cs",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Services\\AppIdentityErrorDescriber.cs",
+              "RelativeToolTip": "testEFvsID\\Services\\AppIdentityErrorDescriber.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T08:22:13.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DBManageController.cs",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Database\\Controllers\\DBManageController.cs",
+              "RelativeDocumentMoniker": "testEFvsID\\Areas\\Database\\Controllers\\DBManageController.cs",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Database\\Controllers\\DBManageController.cs",
+              "RelativeToolTip": "testEFvsID\\Areas\\Database\\Controllers\\DBManageController.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T14:54:08.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FileManagerController.cs",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Blog\\Controllers\\FileManagerController.cs",
+              "RelativeDocumentMoniker": "testEFvsID\\Areas\\Blog\\Controllers\\FileManagerController.cs",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Blog\\Controllers\\FileManagerController.cs",
+              "RelativeToolTip": "testEFvsID\\Areas\\Blog\\Controllers\\FileManagerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T14:53:55.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Blog\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "testEFvsID\\Areas\\Blog\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Blog\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "testEFvsID\\Areas\\Blog\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAABMBAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T14:53:40.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "testEFvsID\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-06T14:53:36.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Admin\\Controllers\\Admin.cs",
+              "RelativeDocumentMoniker": "testEFvsID\\Areas\\Admin\\Controllers\\Admin.cs",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Areas\\Admin\\Controllers\\Admin.cs",
+              "RelativeToolTip": "testEFvsID\\Areas\\Admin\\Controllers\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T14:53:31.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20240221031157_UpdatePost2.cs",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Migrations\\20240221031157_UpdatePost2.cs",
+              "RelativeDocumentMoniker": "testEFvsID\\Migrations\\20240221031157_UpdatePost2.cs",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Migrations\\20240221031157_UpdatePost2.cs",
+              "RelativeToolTip": "testEFvsID\\Migrations\\20240221031157_UpdatePost2.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T14:53:02.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20240124143725_AddIdentity.cs",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Migrations\\20240124143725_AddIdentity.cs",
+              "RelativeDocumentMoniker": "testEFvsID\\Migrations\\20240124143725_AddIdentity.cs",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Migrations\\20240124143725_AddIdentity.cs",
+              "RelativeToolTip": "testEFvsID\\Migrations\\20240124143725_AddIdentity.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T14:52:29.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_MenuCategoriesPartial.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Views\\Shared\\_MenuCategoriesPartial.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Views\\Shared\\_MenuCategoriesPartial.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Views\\Shared\\_MenuCategoriesPartial.cshtml",
+              "RelativeToolTip": "testEFvsID\\Views\\Shared\\_MenuCategoriesPartial.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T08:23:23.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "testEFvsID\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T08:23:20.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_LayoutProfile.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Views\\Shared\\_LayoutProfile.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Views\\Shared\\_LayoutProfile.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Views\\Shared\\_LayoutProfile.cshtml",
+              "RelativeToolTip": "testEFvsID\\Views\\Shared\\_LayoutProfile.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T08:23:19.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_Footer.cshtml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Views\\Shared\\_Footer.cshtml",
+              "RelativeDocumentMoniker": "testEFvsID\\Views\\Shared\\_Footer.cshtml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Views\\Shared\\_Footer.cshtml",
+              "RelativeToolTip": "testEFvsID\\Views\\Shared\\_Footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T08:22:56.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PostCategory.cs",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Models\\PostCategory.cs",
+              "RelativeDocumentMoniker": "testEFvsID\\Models\\PostCategory.cs",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Models\\PostCategory.cs",
+              "RelativeToolTip": "testEFvsID\\Models\\PostCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T08:22:12.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Post.cs",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "testEFvsID\\Models\\Post.cs",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Models\\Post.cs",
+              "RelativeToolTip": "testEFvsID\\Models\\Post.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAA4wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:41:34.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PagingModel.cs",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Models\\PagingModel.cs",
+              "RelativeDocumentMoniker": "testEFvsID\\Models\\PagingModel.cs",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Models\\PagingModel.cs",
+              "RelativeToolTip": "testEFvsID\\Models\\PagingModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:41:35.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "testEFvsID\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "testEFvsID\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:42:25.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "testEFvsID\\Models\\Contact.cs",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Models\\Contact.cs",
+              "RelativeToolTip": "testEFvsID\\Models\\Contact.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:41:31.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "testEFvsID\\Models\\Category.cs",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Models\\Category.cs",
+              "RelativeToolTip": "testEFvsID\\Models\\Category.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:41:17.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "2a7c7e3a-e220-4021-954c-39c744cdd79b.eml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\mailssave\\2a7c7e3a-e220-4021-954c-39c744cdd79b.eml",
+              "RelativeDocumentMoniker": "testEFvsID\\mailssave\\2a7c7e3a-e220-4021-954c-39c744cdd79b.eml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\mailssave\\2a7c7e3a-e220-4021-954c-39c744cdd79b.eml",
+              "RelativeToolTip": "testEFvsID\\mailssave\\2a7c7e3a-e220-4021-954c-39c744cdd79b.eml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001861|",
+              "WhenOpened": "2025-03-03T08:21:09.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "21739bd9-e1a3-4d6d-abd3-d0345795db73.eml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\mailssave\\21739bd9-e1a3-4d6d-abd3-d0345795db73.eml",
+              "RelativeDocumentMoniker": "testEFvsID\\mailssave\\21739bd9-e1a3-4d6d-abd3-d0345795db73.eml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\mailssave\\21739bd9-e1a3-4d6d-abd3-d0345795db73.eml",
+              "RelativeToolTip": "testEFvsID\\mailssave\\21739bd9-e1a3-4d6d-abd3-d0345795db73.eml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001861|",
+              "WhenOpened": "2025-02-24T10:42:36.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "testEFvsID.csproj",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\testEFvsID.csproj",
+              "RelativeDocumentMoniker": "testEFvsID\\testEFvsID.csproj",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\testEFvsID.csproj",
+              "RelativeToolTip": "testEFvsID\\testEFvsID.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-24T12:53:06.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "3265325a-b7a8-4a8e-b671-d78f7da465bb.eml",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\mailssave\\3265325a-b7a8-4a8e-b671-d78f7da465bb.eml",
+              "RelativeDocumentMoniker": "testEFvsID\\mailssave\\3265325a-b7a8-4a8e-b671-d78f7da465bb.eml",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\mailssave\\3265325a-b7a8-4a8e-b671-d78f7da465bb.eml",
+              "RelativeToolTip": "testEFvsID\\mailssave\\3265325a-b7a8-4a8e-b671-d78f7da465bb.eml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001861|",
+              "WhenOpened": "2025-02-24T10:42:44.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20240223015726_UpdateView.cs",
+              "DocumentMoniker": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Migrations\\20240223015726_UpdateView.cs",
+              "RelativeDocumentMoniker": "testEFvsID\\Migrations\\20240223015726_UpdateView.cs",
+              "ToolTip": "D:\\Vanh\\TTTN_Project_NewsWebsite\\testEFvsID\\testEFvsID\\Migrations\\20240223015726_UpdateView.cs",
+              "RelativeToolTip": "testEFvsID\\Migrations\\20240223015726_UpdateView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:41:37.607Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

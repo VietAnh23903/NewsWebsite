@@ -1,0 +1,241 @@
+﻿@using testEFvsID.Views.Shared.Components
+@model IEnumerable<testEFvsID.Models.Post>
+@{
+
+    List<Category> categories = ViewBag.categories as List<Category>;
+    Category category = ViewBag.category as Category;
+    ViewData["Title"] = (category != null) ? category.Title : "Tất cả";
+    List<Post> newslider = ViewBag.newslider;
+    List<Post> newshot = ViewBag.newshot;
+    List<Post> newview = ViewBag.newview;
+    List<Post> newcustom = ViewBag.newcustom;
+    Post firstslider = ViewBag.firstslider;
+}
+@* <partial name="_AlertMessage" /> *@
+<h2 class="font-title">Tin nổi bật</h2>
+<div class="row">
+    <div class="col-7 border-right">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width:auto">
+
+            <div class="carousel-inner" style="height:600px; width:auto">
+                <div class="carousel-item active" style="height:100%;">
+                    <a asp-action="Detail" asp-route-postslug="@firstslider.Slug">
+                        <img class="d-block w-100" src="@firstslider.Thumbnail" alt="Second slide" style="object-fit:cover;height:60%">
+                    </a>
+                    <div class="d-block w-100">
+                        <span class="font-title title-category-slider">
+                            <a asp-controller="Home" asp-action="Index" asp-route-categoryslug="@firstslider.PostCategories.FirstOrDefault()?.Category.slug">
+                                @firstslider.PostCategories.FirstOrDefault()?.Category.Title
+                            </a>
+                        </span>
+                       
+                        <h4 class="d-block new-title new-slider-title">
+                            <a class="" asp-action="Detail" asp-route-postslug="@firstslider.Slug">
+                                @firstslider.Title
+                            </a> 
+                        </h4>
+                       
+                        <p class="new-description">@firstslider.Description</p>
+                    </div>
+                </div>
+                @foreach (var item in newslider)
+                {
+                    
+                    <div class="carousel-item" style="height:100%;">
+                        <a asp-action="Detail" asp-route-postslug="@item.Slug">
+                            <img class="d-block w-100" src="@item.Thumbnail" alt="Second slide" style="object-fit:cover;height:60%">
+                        </a>
+                        <div class="d-block w-100">
+                            <span class="font-title title-category-slider">
+                                <a asp-controller="Home" asp-action="Index" asp-route-categoryslug="@item.PostCategories.FirstOrDefault()?.Category.slug">
+                                    @item.PostCategories.FirstOrDefault()?.Category.Title
+                                </a>
+                            </span>
+                            <h4 class="d-block new-title new-slider-title">
+                                <a class="" asp-action="Detail" asp-route-postslug="@item.Slug">
+                                    @item.Title
+                                </a>
+                            </h4>
+                            <p class="new-description">@item.Description</p>
+                        </div>
+
+                    </div>
+                    
+                }
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="height:60%">
+                <span class="" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" style="height:60%">
+                <span class="" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div class="col-5">
+        @foreach (var post in newshot)
+        {
+            <div class="media border-bottom mb-3 ">
+                <img src="@post.Thumbnail" class="mr-3 w-50 new-hot-image">
+                <div class="media-body">
+                    <p class="mt-0 new-title new-title-hot">
+                        <a class="" asp-controller="Home" asp-action="Detail" asp-route-postslug="@post.Slug">
+                            @post.Title
+                        </a>
+                    </p>
+                    <div class="new-footer">
+                        @* <strong>@post.Author.UserName</strong> *@
+                        <i class="fa fa-calendar"></i>
+                        <i>@post.DateUpdated</i>
+                    </div>
+
+                </div>
+            </div>
+        }
+    </div>
+    
+</div>
+
+<hr />
+
+<nav aria-label="breadcrumb" class="checkpoint">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-action="Index" asp-route-categoryslug="">Trang chủ</a></li>
+        <input type="text" value="@category"  hidden class="isCate">
+        @if (category != null)
+        {
+            var li = category.ListParents();
+            foreach(var l in li)
+            {
+                <li class="breadcrumb-item active">
+                    <a asp-action="Index" asp-route-categoryslug="@l.slug" class="tt">@l.Title</a>
+                   
+                </li> 
+               
+            }
+
+        }
+    </ol>
+</nav>
+<h3 class="font-title">@ViewData["Title"]</h3>
+@* @if (category != null)
+{
+    <p class="font-title">@category.Description</p>
+}
+else
+{
+    <p class="font-title">Tất cả</p>
+} *@
+<hr />
+@foreach (var post in Model)
+{
+    <div class="media border-bottom mb-3 pb-3">
+        <img src="@post.Thumbnail" class="mr-3 new-category-image" style="object-fit:cover">
+        <div class="media-body">
+            <h5 class="mt-0 new-title">
+                <a class="" asp-controller="Home" asp-action="Detail" asp-route-postslug="@post.Slug">
+                    @post.Title
+                </a>
+            </h5>
+            <span class="new-category-time">
+                @post.PostCategories.FirstOrDefault()?.Category.Title
+                &nbsp<i class="fa fa-calendar"></i>
+                <i>  @post.DateUpdated.ToShortDateString()</i>
+            </span>
+            <div class="text-justify">
+                @post.Description
+            </div>
+           
+            @* <div>
+                Chủ đề:
+                <strong class="text-gray-100">
+                    
+                </strong>
+            </div> *@
+           
+
+        </div>
+    </div>
+}
+
+@section SideBar{
+   @*  @await Component.InvokeAsync("testEFvsID.Views.Shared.Components.CategorySidebar",
+    new CategorySidebar.CategorySidebarData(){
+       Categories=categories,
+       level=0,
+       categoryslug=ViewBag.categoryslug
+    }) *@
+}
+@section CustomNew{
+    <hr />
+    <div class="row list-custom-item">
+        @foreach (var p in newcustom)
+        {
+            <div class="col-6 comboshow" style="position:static">
+                <a class="list-custom-title" asp-controller="Home" asp-action="Detail" asp-route-postslug="@p.Slug">
+                   <i class="fa fa-circle" style="font-size:6px; margin-right:3px;"></i>
+                    <span>@p.Title</span>
+                </a>
+                <div class="sub-info">
+                    <img src="@p.Thumbnail">
+                    <p>
+
+                        @p.Description
+                    </p>
+                </div>
+            </div>
+            
+        }
+        
+    </div>
+   
+   
+}
+@section ListView{
+
+    @using (Html.BeginForm("SearchResult","Home"))
+    {
+       
+            <div class="input-group mb-3">
+                <input type="text" class="form-control search-text" name="search" placeholder="Tìm kiếm">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="submit" id="button-addon2"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+            <div class="search-result" id="search-result">
+               
+            </div>
+        
+    }
+
+    <h4 class="font-title">Hot new</h4>
+    <hr style="border:solid 1px red" />
+    @foreach (var post in newview)
+    {
+        <div class="media border-bottom mb-2 pb-2">
+            <img src="@post.Thumbnail" class="mr-3 new-view-image">
+            <div class="media-body">
+                <p class="mt-0 new-title new-title-view">
+                    <a class="" asp-controller="Home" asp-action="Detail" asp-route-postslug="@post.Slug">
+                        @post.Title
+                    </a>
+                </p>
+                <div class="new-footer">
+                    @* <strong>@post.Author.UserName</strong>
+                    <i>@post.DateUpdated</i> *@
+                    <p>
+                        <i class="fa fa-eye"></i>
+                        @post.View
+                    </p>
+                    
+                </div>
+
+            </div>
+        </div>
+    }
+
+}
+<partial name="_PagingXTL" model="@ViewBag.pagingModel" />
+
+

@@ -1,0 +1,130 @@
+﻿@model testEFvsID.Models.Post;
+@using testEFvsID.Views.Shared.Components;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    List<Category> categories = ViewBag.categories as List<Category>;
+    Category category = ViewBag.category as Category;
+    ViewData["Title"] = Model.Title;
+    List<Post> newview = ViewBag.newview;
+    List<Post> newcustom = ViewBag.newcustom;
+}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-action="Index" asp-route-categoryslug="">Trang chủ</a></li>
+        @if (category != null)
+        {
+            var li = category.ListParents();
+            foreach (var l in li)
+            {
+                <li class="breadcrumb-item active">
+                    <a asp-action="Index" asp-route-categoryslug="@l.slug">@l.Title</a>
+                </li>
+            }
+            <li class="breadcrumb-item active">
+                <a asp-action="Index" asp-route-categoryslug="@category.slug">@category.Title</a>
+            </li>
+        }
+    </ol>
+</nav>
+<div class="detailpost">
+    <h1 class="font-title">@Model.Title</h1>
+    <div class="sapo font-title">
+        @Model.Description
+    </div>
+    <div style="text-align: right">
+        <i>Cập nhật: @Model.DateUpdated.ToShortDateString()</i>
+       
+    </div>
+    <div style="width:100%;">
+        @Html.Raw(Model.Content)
+    </div>
+    <div style="text-align: right">
+        <strong>@Model.Author.UserName</strong>
+    </div>
+</div>
+<partial name="_FlashNews" />
+@* @section SideBar{
+    @await Component.InvokeAsync("testEFvsID.Views.Shared.Components.CategorySidebar",
+    new CategorySidebar.CategorySidebarData(){
+       Categories=categories,
+       level=0,
+       categoryslug=ViewBag.categoryslug
+    });
+} *@
+@section ListView{
+
+    @using (Html.BeginForm("SearchResult", "Home"))
+    {
+
+        <div class="input-group mb-3">
+            <input type="text" class="form-control search-text" name="search" placeholder="Tìm kiếm">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="submit" id="button-addon2"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+        <div class="search-result" id="search-result">
+        </div>
+
+    }
+
+    <h4 class="font-title">Hot new</h4>
+    <hr style="border:solid 1px red" />
+    @foreach (var post in newview)
+    {
+        <div class="media border-bottom mb-2 pb-2">
+            <img src="@post.Thumbnail" class="mr-3 new-view-image">
+            <div class="media-body">
+                <p class="mt-0 new-title new-title-view">
+                    <a class="" asp-controller="Home" asp-action="Detail" asp-route-postslug="@post.Slug">
+                        @post.Title
+                    </a>
+                </p>
+                <div class="new-footer">
+                    @* <strong>@post.Author.UserName</strong>
+            <i>@post.DateUpdated</i> *@
+                    <p>
+                        <i class="fa fa-eye"></i>
+                        @post.View
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    }
+
+}
+@section CustomNew{
+    <hr />
+   <div class="col-12">
+        <h3 class="font-title">
+            Bài viết khác
+        </h3>
+    </div>
+       
+    
+    <div class="col-12">
+        <div class="row list-custom-item">
+            @if (newcustom.Count != null)
+            {
+                @foreach (var p in newcustom)
+                {
+                    <div class="col-6">
+                        <a class="list-custom-title" asp-controller="Home" asp-action="Detail" asp-route-postslug="@p.Slug">
+                            <i class="fa fa-circle" style="font-size:4px; margin-right:3px;"></i>
+                            <span>@p.Title</span>
+
+                        </a>
+                    </div>
+                }
+
+            }
+
+        </div>
+    </div>
+    
+
+
+}
